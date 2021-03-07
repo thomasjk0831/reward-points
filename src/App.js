@@ -3,6 +3,7 @@ import { Route, NavLink } from "react-router-dom";
 
 import itemsData from "./data/itemsData";
 import purchasesData from "./data/purchasesData";
+import usersData from "./data/usersData";
 
 import Home from "./components/Home";
 import Items from "./components/Items";
@@ -13,18 +14,31 @@ import "./styles.css";
 
 function App() {
   const [user, setUser] = useState(null);
+  const [cart, setCart] = useState(0);
   const [items, setItems] = useState(itemsData);
   const [purchases, setPurchases] = useState(purchasesData);
+
+  function addPurchase() {
+    const obj = {
+      id: purchases.length + 1,
+      user: user,
+      amount: cart,
+      month: new Date().getMonth() + 1,
+    };
+    purchases.push(obj);
+  }
 
   return (
     <div className="App">
       <nav>
-        <h1 className="store-header">Welcome</h1>
+        <h1 className="store-header">
+          Welcome {user ? usersData[user] : "Please log-in"}
+        </h1>
         <div className="nav-links">
           <NavLink to="/">Home</NavLink>
           <NavLink to="/items">Shop</NavLink>
           <NavLink to="/points">Points</NavLink>
-          <NavLink to="/login">Log-in</NavLink>
+          <NavLink to="/login">Login</NavLink>
         </div>
       </nav>
 
@@ -34,7 +48,16 @@ function App() {
       <Route
         exact
         path="/items"
-        render={(props) => <Items {...props} items={items} />}
+        render={(props) => (
+          <Items
+            {...props}
+            items={items}
+            setCart={setCart}
+            cart={cart}
+            addPurchase={addPurchase}
+            user={user}
+          />
+        )}
       />
       <Route
         exact
