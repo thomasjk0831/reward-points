@@ -16,16 +16,16 @@ function Login(props) {
     setChoice(parseInt(e.target.value));
   }
   return (
-    <div>
-      <form onSubmit={handleSubmit}>
+    <div className="loginForm-container">
+      <form className="loginForm" onSubmit={handleSubmit}>
         <label>
-          Login
-          <select onChange={handleChange}>
+          <h3>Login</h3>
+          <select className="loginInput" onChange={handleChange}>
             <option value="1">John</option>
             <option value="2">Jane</option>
           </select>
         </label>
-        <input type="submit" value="Submit" />
+        <input className="login-button" type="submit" value="Submit" />
       </form>
     </div>
   );

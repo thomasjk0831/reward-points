@@ -28,6 +28,14 @@ function App() {
     purchases.push(obj);
   }
 
+  function disablePointsLink(e) {
+    if (!user) e.preventDefault();
+  }
+
+  function LogUserOut(e) {
+    setUser(null);
+  }
+
   return (
     <div className="App">
       <nav>
@@ -35,10 +43,29 @@ function App() {
           Welcome {user ? usersData[user] : "Please log-in"}
         </h1>
         <div className="nav-links">
-          <NavLink to="/">Home</NavLink>
-          <NavLink to="/items">Shop</NavLink>
-          <NavLink to="/points">Points</NavLink>
-          <NavLink to="/login">Login</NavLink>
+          <NavLink exact to="/">
+            Home
+          </NavLink>
+          <NavLink exact to="/items">
+            Shop
+          </NavLink>
+          <NavLink
+            exact
+            to="/points"
+            onClick={disablePointsLink}
+            className={!user ? "link-points" : null}
+          >
+            Points
+          </NavLink>
+          {!user ? (
+            <NavLink exact to="/login">
+              Login
+            </NavLink>
+          ) : (
+            <NavLink exact to="/login" onClick={LogUserOut}>
+              Logout
+            </NavLink>
+          )}
         </div>
       </nav>
 

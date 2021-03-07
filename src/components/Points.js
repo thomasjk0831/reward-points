@@ -67,11 +67,9 @@ function Points(props) {
       <div>
         <h3>{usersData[props.user]}</h3>
 
+        <p>You earned {ptsCurrentMonth}pts this month...</p>
         <p>
-          You earned {ptsCurrentMonth}pts in {monthsData[currentMonth]}...
-        </p>
-        <p>
-          {pts2ndToLastMonth}pts in{" "}
+          and {pts2ndToLastMonth}pts in{" "}
           {currentMonth - 1 < 1
             ? monthsData[currentMonth + 11]
             : monthsData[currentMonth - 1]}
@@ -86,8 +84,10 @@ function Points(props) {
           ...
         </p>
         <p>
-          You earned {ptsLastMonth + pts2ndToLastMonth + ptsCurrentMonth} pts
-          total!
+          <strong>
+            You earned {ptsLastMonth + pts2ndToLastMonth + ptsCurrentMonth} pts
+            total!
+          </strong>
         </p>
       </div>
     </div>
