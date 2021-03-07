@@ -1,67 +1,74 @@
 export default [
   {
-    name: "Rosewood Brainteaser Trio",
-    price: 45.12,
+    name: "Reel Viewer",
+    id: 0,
+    price: 29.95,
     imageUrl:
-      "https://www.uncommongoods.com/images/items/52900/52933_1_360px.jpg",
+      "https://www.uncommongoods.com/images/items/47400/47435_1_360px.jpg",
     description:
-      "Take a break in the middle of a hard-core study session or a draining evening of presentation planning with these three challenging puzzles. Start with the cross- and star-shaped brainteasers to get your neurons firing, then move on to the hardest one in the set: the snake cube. Taking them apart is easy; putting them back together is where your problem-solving skills get their time to shine. All three come in a glass-top wooden box for display and storage—that is, if you can ever put them down. Hand-carved from rosewood in India.",
+      "Ah, nostalgia. Give yourself a double dose with this grown-up, just-for-you version of one of childhood's greatest gadgets: the reel viewer. Assemble snapshots of your favorite memories and add them to your very own reel using the redemption code included with your viewer. Once you receive your made-to-order reel, pop it in the viewer and marvel at baby's first steps, or your favorite beach at sunset, or... well, whatever else you want immortalized. Remember: You're the view master now. Made in Oregon.",
     shipping:
       "Most of our items are in stock and will ship quickly. Orders for in-stock items placed before 5pm ET Monday through Friday, excluding Federal holidays, will ship in the US: ECONOMY SHIPPING: within 8 days, arriving no later than the 9th business day after the order was placed. STANDARD SHIPPING: within 4 days, arriving 5 business days after the order was placed. PREFERRED SHIPPING: within 2 days, arriving 3 business days after the order was placed. EXPEDITED SHIPPING: within 1 day, arriving 2 business days after the order was placed. EXPRESS SHIPPING: will ship the same day and arrive 1 business day later.",
   },
   {
-    name: "Infinite Galaxy Puzzle",
-    price: 65.0,
+    name: "Mathematical Glasses - Set of 4",
+    id: 1,
+    price: 38.0,
     imageUrl:
-      "https://www.uncommongoods.com/images/items/51700/51738_1_360px.jpg",
+      "https://www.uncommongoods.com/images/items/46700/46720_1_360px.jpg",
     description:
-      "Buckle up, friends—this is not your average jigsaw. If you're into outer space, you'll not only appreciate that this puzzle is based on a photo from the Hubble Space Telescope that shows stars being born in the Carina nebula, but also, much like the endless abyss that surrounds us, it has no fixed shape, no starting point, and no edges. Limitless combinations are possible, and that's exactly the fun of it. ",
+      "Whether it's advanced calculus or just calculating ideal ice to iced tea ratios, stay hydrated in statistical style with this set. Drinking with mathematical precision is easy: Just use the standard ounce marks and their equivalent constants, then geek out over the expanded formulas—all presented in delightfully differential colors like graph paper blue and #2 pencil gray. Glassware made in New Jersey. Decorated in Blanchester, Ohio. ",
     shipping:
       "Most of our items are in stock and will ship quickly. Orders for in-stock items placed before 5pm ET Monday through Friday, excluding Federal holidays, will ship in the US: ECONOMY SHIPPING: within 8 days, arriving no later than the 9th business day after the order was placed. STANDARD SHIPPING: within 4 days, arriving 5 business days after the order was placed. PREFERRED SHIPPING: within 2 days, arriving 3 business days after the order was placed. EXPEDITED SHIPPING: within 1 day, arriving 2 business days after the order was placed. EXPRESS SHIPPING: will ship the same day and arrive 1 business day later.",
   },
   {
-    name: "Mars Dust Globe",
-    price: 35.25,
+    name: "Shakespearean Insults Chart",
+    id: 2,
+    price: 25.49,
     imageUrl:
-      "https://www.uncommongoods.com/images/items/50900/50947_1_360px.jpg",
+      "https://www.uncommongoods.com/images/items/27300/27303_1_360px.jpg",
     description:
-      "A modern twist on a classic snow globe, this beauty will awaken the adventurer in anyone who shakes it. When the dust clears, you’ll see the planet view of Mars, with detailed topography of Valles Marineris and Olympus Mons on one side, and an adult and child astronaut on the other. It’s a hopeful symbol of a future where our ability to explore will know no bounds.",
+      'We all know someone who deserves to be dubbed a "penurious and indubitate beggar." And from time to time, you may be tempted to say that "he has not so much brain as ear-wax." This rollicking infographic is chock-full of such colorful insults from Shakespeare, the playwright who practically invented the art of the poetic put-down. Designer Tim Sanders culled the Oxford Complete Shakespeare to compile an endlessly entertaining word map of the Bard\'s boisterous, bawdy jabs, each one a mini-masterpiece of raunchy, rancorous Renaissance wit. The four-color, offset-printed poster on 100 lb., acid-free, FSC-certified paper makes the perfect reference and decor for an astute office, library, or thespian lounge. Made in Seattle.',
     shipping:
       "Most of our items are in stock and will ship quickly. Orders for in-stock items placed before 5pm ET Monday through Friday, excluding Federal holidays, will ship in the US: ECONOMY SHIPPING: within 8 days, arriving no later than the 9th business day after the order was placed. STANDARD SHIPPING: within 4 days, arriving 5 business days after the order was placed. PREFERRED SHIPPING: within 2 days, arriving 3 business days after the order was placed. EXPEDITED SHIPPING: within 1 day, arriving 2 business days after the order was placed. EXPRESS SHIPPING: will ship the same day and arrive 1 business day later.",
   },
   {
-    name: "Celestial Desktop Timekeepers",
-    price: 45.24,
+    name: "Yoga Joes",
+    id: 3,
+    price: 25.0,
     imageUrl:
-      "https://www.uncommongoods.com/images/items/52100/52119_1_360px.jpg",
+      "https://www.uncommongoods.com/images/items/43200/43212_1_360px.jpg",
     description:
-      "Pinpoint the time by looking to the heavens with one of two desktop-sized historical clock replicas. The Astronomical Ring Dial is a 17th-century spherical sundial, while the Nocturlabe is based on a 16th-century artifact on display at the British Museum in London. Each brass-dipped, hanging instrument offers an analog method of establishing the current time. The Astronomical Rings use your position in relation to the sun to cast a ray of light through the device onto its timekeeping dials. When darkness falls, the Nocturlabe determines the hour and minute by aligning with stars found in the Big Dipper and Little Dipper.",
+      'This troop\'s mission? To keep inner peace. Designer Dan Abramson looked to a favorite childhood toy to help inspire grown-ups to get into yoga. Armed with a general knowledge of the practice, this platoon of posing servicemen show off their secret weapon: major strength and flexibility. Give the battalion to the disciplined yogi or well-balanced lieutenant in your life, or keep them in your barracks as a reminder to soldier on through your basic (yoga) training. Packaged in a "mini yoga studio" box with a bamboo floor. Made of ABS plastic in China.',
     shipping:
       "Most of our items are in stock and will ship quickly. Orders for in-stock items placed before 5pm ET Monday through Friday, excluding Federal holidays, will ship in the US: ECONOMY SHIPPING: within 8 days, arriving no later than the 9th business day after the order was placed. STANDARD SHIPPING: within 4 days, arriving 5 business days after the order was placed. PREFERRED SHIPPING: within 2 days, arriving 3 business days after the order was placed. EXPEDITED SHIPPING: within 1 day, arriving 2 business days after the order was placed. EXPRESS SHIPPING: will ship the same day and arrive 1 business day later.",
   },
   {
-    name: "Springtime Paint-by-Number Kit",
-    price: 35.0,
+    name: "Dinosaur Taco Holders",
+    id: 4,
+    price: 12.0,
     imageUrl:
-      "https://www.uncommongoods.com/images/items/52000/52010_1_360px.jpg",
+      "https://www.uncommongoods.com/images/items/45700/45759_1_360px.jpg",
     description:
-      "Tortured artist? Not you. Bring on the calm while creating something beautiful with Rachel Austen’s vintage-style paint-by-number kits. As you focus on each brushstroke, life’s stresses stop swirling in your mind. Her simple designs use just eight colors, meaning you can make a frame-worthy work of art in 3-5 hours—even if you haven’t held a paintbrush since second grade. Everything you need is included: full-color pre-printed background on artist-quality canvas; synthetic sable-hair brushes; and non-toxic, water-based acrylic paint. So move aside, coloring books: paint-by-number’s due for its moment in the (yellow, #5) sun.",
+      "Known for their hard shells and spicy dispositions, dinosaurs roamed the earth millions of years ago. These taco-toting beasts are back for a blast of mealtime fun. The durable, dishwasher-safe triceratops and t-rex hold two hard shell tacos until you make them extinct. Made in China.",
     shipping:
       "Most of our items are in stock and will ship quickly. Orders for in-stock items placed before 5pm ET Monday through Friday, excluding Federal holidays, will ship in the US: ECONOMY SHIPPING: within 8 days, arriving no later than the 9th business day after the order was placed. STANDARD SHIPPING: within 4 days, arriving 5 business days after the order was placed. PREFERRED SHIPPING: within 2 days, arriving 3 business days after the order was placed. EXPEDITED SHIPPING: within 1 day, arriving 2 business days after the order was placed. EXPRESS SHIPPING: will ship the same day and arrive 1 business day later.",
   },
   {
-    name: "Around the World City Radio",
-    price: 120.0,
+    name: "Color Changing Cinema Lightbox",
+    id: 5,
+    price: 49.95,
     imageUrl:
-      "https://www.uncommongoods.com/images/items/52200/52291_1_360px.jpg",
+      "https://www.uncommongoods.com/images/items/46600/46667_1_360px.jpg",
     description:
-      "Kick-start the morning in Tokyo with J-pop's bass-driven beats, then spend the evening in Buenos Aires with the romantic rhythms of tango. Paying homage to AM/FM one-ways of the past, this Bluetooth-enabled device lets you travel across the globe at the touch of a button. Eighteen international radio libraries (from Athens to Sydney) are at your fingertips by downloading a free app to your smartphone and pairing it to this retro receiver. Select a destination and then find a favorite station the old-fashioned way, by using a tuning nodule to flip through that city’s unique offerings. You’re the DJ on this frequency-fueled trip around the world.",
+      "Picture your name or favorite phrase in lights… bright, color-changing lights. This colorful, retro lightbox adds blockbuster bling to special occasions and everyday spaces in need of some inspiration. Back-lit like a real marquee, it cycles through a spectrum of colors or stops on your hue of choice, including classic white. The piece comes in three sizes including mini for your desktop or side table, standard, or large for special occasions like weddings or birthdays. Lightweight and portable, you can slide any creative combination of the included characters into three slotted lines. Battery or USB-powered. Made in China.",
     shipping:
       "Most of our items are in stock and will ship quickly. Orders for in-stock items placed before 5pm ET Monday through Friday, excluding Federal holidays, will ship in the US: ECONOMY SHIPPING: within 8 days, arriving no later than the 9th business day after the order was placed. STANDARD SHIPPING: within 4 days, arriving 5 business days after the order was placed. PREFERRED SHIPPING: within 2 days, arriving 3 business days after the order was placed. EXPEDITED SHIPPING: within 1 day, arriving 2 business days after the order was placed. EXPRESS SHIPPING: will ship the same day and arrive 1 business day later.",
   },
   {
     name: "Avocado Tree Starter Kit - Set of 3",
-    price: 20.99,
+    id: 6,
+    price: 20.0,
     imageUrl:
       "https://www.uncommongoods.com/images/items/40800/40804_1_360px.jpg",
     description:
@@ -70,53 +77,25 @@ export default [
       "Most of our items are in stock and will ship quickly. Orders for in-stock items placed before 5pm ET Monday through Friday, excluding Federal holidays, will ship in the US: ECONOMY SHIPPING: within 8 days, arriving no later than the 9th business day after the order was placed. STANDARD SHIPPING: within 4 days, arriving 5 business days after the order was placed. PREFERRED SHIPPING: within 2 days, arriving 3 business days after the order was placed. EXPEDITED SHIPPING: within 1 day, arriving 2 business days after the order was placed. EXPRESS SHIPPING: will ship the same day and arrive 1 business day later.",
   },
   {
-    name: "History by Mail Six-Month Subscription",
-    price: 37.0,
+    name: "Hero Bookend",
+    id: 7,
+    price: 19.95,
     imageUrl:
-      "https://www.uncommongoods.com/images/items/52100/52179_1_360px.jpg",
+      "https://www.uncommongoods.com/images/items/47500/47500_1_360px.jpg",
     description:
-      "The invention of the atomic bomb. Rosa Parks and the Montgomery bus boycott. Sure, you can read about these moments in a book, but why not hear from those who were actually there? This monthly mail subscription service sends detailed replicas of historical documents, like Albert Einstein's correspondence with FDR or Parks police report when she refused to give up her seat. Each letter comes with pertinent information to explain any additional context and cultural significance.",
+      'After a full day of fighting crime, this miniature superhero has his priorities straight: Saving the stories! The little defender appears to have extraordinary strength, "pushing" a row of your favorite books upright. Place the cover of a paperback book around the traditional book end to disguise it, and the hero connects on the other side with superhuman strength (aka a magnet). It\'s a playful nod to every courageous protagonist, and makes a great gift for literary lovers whether teachers, writers, or just voracious readers. Designed by Ori Niv in Tel Aviv, Isreal. Made in China.',
     shipping:
       "Most of our items are in stock and will ship quickly. Orders for in-stock items placed before 5pm ET Monday through Friday, excluding Federal holidays, will ship in the US: ECONOMY SHIPPING: within 8 days, arriving no later than the 9th business day after the order was placed. STANDARD SHIPPING: within 4 days, arriving 5 business days after the order was placed. PREFERRED SHIPPING: within 2 days, arriving 3 business days after the order was placed. EXPEDITED SHIPPING: within 1 day, arriving 2 business days after the order was placed. EXPRESS SHIPPING: will ship the same day and arrive 1 business day later.",
   },
   {
-    name: "Build Your Own Pinball Game",
-    price: 49.95,
+    name: "Fishing Pole Campfire Roaster",
+    id: 8,
+    price: 29.95,
     imageUrl:
-      "https://www.uncommongoods.com/images/items/47300/47313_1_360px.jpg",
+      "https://www.uncommongoods.com/images/items/43000/43021_1_360px.jpg",
     description:
-      "Unplug from your electronics and get ready to have some wildly inventive fun. This kit comes with everything you need to create a fully functional, rubber band-powered, cardboard pinball machine. In about an hour, and with no tools required, anyone (age 13 and up) will be able to assemble their own basic game. But then the real fun begins, as they use their own creativity to customize their creation, decorating it and adding ramps or obstacles. Any kid or game-loving grown-up will feel like a high score winner as they get to play and show off their one-of-a-kind arcade invention.",
+      "We once toasted a marshmallow THIS BIG. Hook and roast your favorite campfire food with this fishing pole–inspired skewer. Made of powder-coated steel and finished with a maple handle, this flipping-fun roaster will occupy a prime spot in your camp tackle box. Find a comfy spot in front of the fire, then jig the pole to flip your snack so it's evenly roasted on all sides. Made in Taiwan.",
     shipping:
       "Most of our items are in stock and will ship quickly. Orders for in-stock items placed before 5pm ET Monday through Friday, excluding Federal holidays, will ship in the US: ECONOMY SHIPPING: within 8 days, arriving no later than the 9th business day after the order was placed. STANDARD SHIPPING: within 4 days, arriving 5 business days after the order was placed. PREFERRED SHIPPING: within 2 days, arriving 3 business days after the order was placed. EXPEDITED SHIPPING: within 1 day, arriving 2 business days after the order was placed. EXPRESS SHIPPING: will ship the same day and arrive 1 business day later.",
-  },
-  {
-    name: "The Levitating Planter",
-    price: 299.0,
-    imageUrl:
-      "https://www.uncommongoods.com/images/items/47100/47105_1_360px.jpg",
-    description:
-      "Simon, whose father was a botanist, created this hypnotic design using the natural properties of magnets and electrical current to magical effect. Ideal for air plants, which don't need soil, the pot can also hold up to .5 lbs, for plants that do require a bit of earth to thrive. The wizardry that keeps the pot afloat also makes it rotate, giving the plant equal sun on all sides. A cleverly designed, hidden inner reservoir protects plant roots from overwatering.",
-    shipping:
-      "Most of our items are in stock and will ship quickly. Orders for in-stock items placed before 5pm ET Monday through Friday, excluding Federal holidays, will ship in the US: ECONOMY SHIPPING: within 8 days, arriving no later than the 9th business day after the order was placed. STANDARD SHIPPING: within 4 days, arriving 5 business days after the order was placed. PREFERRED SHIPPING: within 2 days, arriving 3 business days after the order was placed. EXPEDITED SHIPPING: within 1 day, arriving 2 business days after the order was placed. EXPRESS SHIPPING: will ship the same day and arrive 1 business day later.",
-  },
-  {
-    name: "Mechanical Paper Plane Launcher",
-    price: 38.0,
-    imageUrl:
-      "https://www.uncommongoods.com/images/items/50500/50552_3_360px.jpg",
-    description:
-      "The old-fashioned, hand-launched paper airplane gets a steampunk-inspired upgrade with this model plane launcher. First on your pre-flight checklist: follow the step-by-step instructions to assemble the baltic birch plywood pieces without glue or special tools. Next, get ready for takeoff by winding up the hand-held launcher’s rubber band motor, then pull the trigger to launch one of three included planes (one plywood glider and two paper airplanes) or your own lightweight creation. Send your aircraft almost 100 feet in loops or barrel rolls by adjusting the angle of the wings.",
-    shipping:
-      "Most of our items are in stock and will ship quickly. Orders for in-stock items placed before 5pm ET Monday through Friday, excluding Federal holidays, will ship in the US: ECONOMY SHIPPING: within 8 days, arriving no later than the 9th business day after the order was placed. STANDARD SHIPPING: within 4 days, arriving 5 business days after the order was placed. PREFERRED SHIPPING: within 2 days, arriving 3 business days after the order was placed. EXPEDITED SHIPPING: within 1 day, arriving 2 business days after the order was placed. EXPRESS SHIPPING: will ship the same day and arrive 1 business day later.",
-  },
-  {
-    name: "Smartphone Magnifier",
-    price: 39.0,
-    imageUrl:
-      "https://www.uncommongoods.com/images/items/42600/42689_1_360px.jpg",
-    description:
-      "Coming to a theater near you: viral YouTube videos, your Instagram feed, and cat gifs galore. This portable magnifier is about to blow up your phone—or at least what you see on the screen. Just slip your device into the fully assembled, retro-styled cardboard TV and enjoy your mobile movies double the size of your display. Keep it in your bag for impromptu screenings during your next camping trip, sleepover, or long car ride. ",
-    shipping:
-      "Most of our items are in stock and will ship quickly. Orders for in-stock items placed before 5pm ET Monday through Friday, excluding Federal holidays, will ship in the US: \r\n ECONOMY SHIPPING: within 8 days, arriving no later than the 9th business day after the order was placed. STANDARD SHIPPING: within 4 days, arriving 5 business days after the order was placed. PREFERRED SHIPPING: within 2 days, arriving 3 business days after the order was placed. EXPEDITED SHIPPING: within 1 day, arriving 2 business days after the order was placed. EXPRESS SHIPPING: will ship the same day and arrive 1 business day later.",
   },
 ];
