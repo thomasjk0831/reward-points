@@ -9,6 +9,8 @@ import Items from "./components/Items";
 import Points from "./components/Points";
 import Login from "./components/Login";
 
+import "./styles.css";
+
 function App() {
   const [user, setUser] = useState(null);
   const [items, setItems] = useState(itemsData);
