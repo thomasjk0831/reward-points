@@ -38,6 +38,9 @@ month: 1,
 We will filter this record and display the total points of each month(3 month period) for the current user.
 The user is able to purchase items, checkout and be able to check the the new points total.
 
+--------------------------------------------------------------------------------------------------------------------------------------
+
+
 The user is assigned an integer and represents a user. For this purpose if this demo app, there are only 2 users:
 
 {
@@ -48,9 +51,15 @@ The user is assigned an integer and represents a user. For this purpose if this 
 
 }
 
+--------------------------------------------------------------------------------------------------------------------------------------
+
 
 The amount is represented as a floating number. Because Javascript has issues with adding floating numbers(it uses approximation),
 we will convert the sum with the 'fixed()' function to a string, then convert it back to a floating type.
+
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
 
 The month is represented as an intger value. 'January' is represnted by 1.
 
@@ -70,6 +79,8 @@ The month is represented as an intger value. 'January' is represnted by 1.
 
 
 We will use this since we are using an integer value to represent month but we need to show the user what month it is.
+
+--------------------------------------------------------------------------------------------------------------------------------------
 
 The heart of this app is in the 'Points' component.
 It contains functions which takes the transaction record data set and filters it to points total per month per user for the last 3 months.
