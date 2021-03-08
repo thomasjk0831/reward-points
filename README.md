@@ -36,7 +36,7 @@ month: 1,
 ]
 
 We will filter this record and display the total points of each month(3 month period) for the current user.
-The user is able to purchase items, checkout and be able to check the the new points total.
+Additionally, The user is also able to purchase items, checkout and be able to check the the new points total.
 
 --------------------------------------------------------------------------------------------------------------------------------------
 
@@ -83,7 +83,7 @@ We will use this since we are using an integer value to represent month but we n
 --------------------------------------------------------------------------------------------------------------------------------------
 
 The heart of this app is in the 'Points' component.
-It contains functions which takes the transaction record data set and filters it to points total per month per user for the last 3 months.
+It contains functions which takes the transaction record data set and filters it to a points total per month per user for the last 3 months.
 
 function getPoints();
 function calculatePoints();
