@@ -20,19 +20,28 @@ The data sets are located in the '/src/data' folder.
 
 purchasesData.js contains dummy records of every transaction during a three-month period.
 The format of the transaction record data is:
+
 [
+
 {
 id: 1,
+
 user: 1,
+
 amount: 20.00,
+
 month: 1,
 },
 {
 id: 2,
+
 user: 2,
+
 amount: 12.50,
+
 month: 1,
 },
+
 ]
 
 We will filter this record and display the total points of each month(3 month period) for the current user.
