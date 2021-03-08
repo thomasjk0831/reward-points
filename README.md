@@ -9,7 +9,7 @@ A simple, ecommerce React web app that demonstrates a customer rewards program.
 
 ## Getting Started
 
-Install dependcies using 'npm i' in the root directory.
+Install dependencies using 'npm i' in the root directory.
 
 Start the App with 'npm start'.
 
