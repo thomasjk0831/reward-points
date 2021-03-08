@@ -41,7 +41,7 @@ Additionally, The user is also able to purchase items, checkout and be able to c
 --------------------------------------------------------------------------------------------------------------------------------------
 
 
-The user is assigned an integer and represents a user. For this purpose if this demo app, there are only 2 users:
+The user is assigned an integer and represents a user. For this purpose of this demo app, there are only 2 users since it is critical that a user needs dummy data from the previous months. Therefore, there is no option to register as a new user and we can only log in as the 2 set users:
 
 {
 
@@ -54,14 +54,14 @@ The user is assigned an integer and represents a user. For this purpose if this 
 --------------------------------------------------------------------------------------------------------------------------------------
 
 
-The amount is represented as a floating number. Because Javascript has issues with adding floating numbers(it uses approximation),
+The dollar amount is represented as a floating number. Because Javascript has issues with adding floating numbers(it uses approximation),
 we will convert the sum with the 'fixed()' function to a string, then convert it back to a floating type.
 
 
 --------------------------------------------------------------------------------------------------------------------------------------
 
 
-The month is represented as an intger value. 'January' is represnted by 1.
+The month is represented as an integer value. 'January' is represnted by 1.
 
 {
 
@@ -84,6 +84,7 @@ We will use this since we are using an integer value to represent month but we n
 
 The heart of this app is in the 'Points' component.
 It contains functions which takes the transaction record data set and filters it to a points total per month per user for the last 3 months.
+The dummy data only contains data for the past 3 months, however, the functions are able to filter it correctly even if there are more than 3 months represented in the data
 
 function getPoints();
 function calculatePoints();
