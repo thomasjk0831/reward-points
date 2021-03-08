@@ -41,7 +41,7 @@ Additionally, The user is also able to purchase items, checkout and be able to c
 --------------------------------------------------------------------------------------------------------------------------------------
 
 
-The user is assigned an integer and represents a user. For this purpose of this demo app, there are only 2 users since it is critical that a user needs dummy data from the previous months. Therefore, there is no option to register as a new user and we can only log in as the 2 set users:
+The user is assigned an integer and represents a user. For the purpose of this app, there are only 2 users since it is critical that a user needs dummy data from the previous months. Therefore, there is no option to register as a new user and we can only log in as the 2 set users:
 
 {
 
